@@ -1,7 +1,7 @@
+//code is to find the majority element Its the element that appears more than ⌊n / 2⌋ times in an array.
 
 import java.util.HashMap;
 
-//code is to find the majority element Its the element that appears more than ⌊n / 2⌋ times in an array.
 public class MajorityElement {
     public static int majorityElement(int[] nums){
         int maxCount = 0;

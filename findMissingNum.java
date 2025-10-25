@@ -1,3 +1,6 @@
+
+import java.util.Arrays;
+
 //code is to find the duplicate number in an array and also the missing number
 public class findMissingNum {
      public static int[] findErrorNums(int[] nums){
@@ -5,6 +8,7 @@ public class findMissingNum {
          int totalSum = (n * (n + 1))/ 2;
          int repeatedNum = 0;
          int actualSum = 0;
+         Arrays.sort(nums);
          for (int i = 0; i < n; i++) {
              if( i > 0 && nums[i] == nums[i-1]) repeatedNum = nums[i];
               actualSum += nums[i];

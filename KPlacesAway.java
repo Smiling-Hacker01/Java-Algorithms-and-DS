@@ -22,7 +22,7 @@ public class KPlacesAway {
     }
     //main fucntion
     public static void main(String[] args) {
-        int[]binary = {1,0,0,1,0,0,1};
+        int[]binary = {1,0,0,1,0,0,0};
         int k = 2;
         boolean result = isValid(binary, k);
         System.out.println("IS all the one's are " + k + " places away ? " + result);

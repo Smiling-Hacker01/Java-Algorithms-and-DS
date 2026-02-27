@@ -17,7 +17,7 @@ class ReverseInteger{
      }
      //main function
      public static void main(String[] args){
-          int x = 2345;
+          int x = 2348;
           ReverseInteger reverse = new ReverseInteger();
           int result = reverse.reverseInt(x);
           System.out.println("The reversed Integer is " + result);

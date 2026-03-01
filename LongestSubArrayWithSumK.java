@@ -23,7 +23,7 @@ public class LongestSubArrayWithSumK {
     }
     //main function
     public static void main(String[] args) {
-        int[]arr = {10,5,2,7,1,-10};
+        int[]arr = {10,5,2,7,1,-9};
         int k = 15;
         int result = longestSubArray(arr, k);
         System.out.println("The longest subArray that has some equals to " + k + " is length of " + result);
